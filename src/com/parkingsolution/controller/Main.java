@@ -15,7 +15,7 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 
 		// relative file path so that the program runs anywhere irrespective of the directory
-		String filePath = new File("").getAbsolutePath() + "/src/input_data.txt";
+		String filePath = new File("").getAbsolutePath() + "/src/input.txt";
 		BufferedReader br = new BufferedReader(new FileReader(new File(filePath)));
 		String line;
 		Integer lineNumber = 1;
